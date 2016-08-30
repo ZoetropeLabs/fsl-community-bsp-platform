@@ -7,14 +7,11 @@
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/sbabic" name="sbabic"/>
-  <remote fetch="ssh://git@code.zoetrope.io/ZoetropeLabs" name="gitlab"/>
 
   <project remote="yocto" revision="krogoth" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="krogoth" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
   
   <project remote="sbabic" revision="krogoth" name="meta-swupdate" path="sources/meta-swupdate"/>
-  
-  <project remote="gitlab" revision="master" name="meta-novo" path="sources/meta-novo"/>
 
   <project remote="oe" revision="krogoth" name="meta-openembedded" path="sources/meta-openembedded"/>
 
