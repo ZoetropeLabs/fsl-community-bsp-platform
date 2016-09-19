@@ -16,6 +16,7 @@
   <project remote="oe" revision="krogoth" name="meta-openembedded" path="sources/meta-openembedded"/>
   
   <project remote="gitlab" revision="master" name="meta-novo" path="sources/meta-novo"/>
+  <project remote="gitlab" revision="master" name="meta-wandboard-extra" path="sources/meta-wandboard-extra"/>
 
   <project remote="freescale" revision="krogoth" name="fsl-community-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
