@@ -7,8 +7,7 @@
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/sbabic" name="sbabic"/>
-   <remote fetch="ssh://git@code.zoetrope.io/ZoetropeLabs" name="gitlab"/> 
-   <remote fetch="ssh://git@code.zoetrope.io/ZoetropeLabs" name="gitlab-novo"/> 
+   <remote fetch="ssh://git@code.zoetrope.io/novo" name="gitlab-novo"/> 
   <project remote="yocto" revision="krogoth" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="krogoth" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
   
@@ -16,7 +15,7 @@
 
   <project remote="oe" revision="krogoth" name="meta-openembedded" path="sources/meta-openembedded"/>
   
-  <project remote="gitlab" revision="master" name="meta-novo" path="sources/meta-novo"/>
+  <project remote="gitlab-novo" revision="master" name="meta-novo" path="sources/meta-novo"/>
   <project remote="gitlab-novo" revision="master" name="meta-wandboard-extra" path="sources/meta-wandboard-extra"/>
 
   <project remote="freescale" revision="krogoth" name="fsl-community-bsp-base" path="sources/base">
